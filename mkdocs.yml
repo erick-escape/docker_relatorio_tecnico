@@ -1,10 +1,43 @@
 site_name: Relatório Técnico Docker
 theme:
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.sections
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.top
   name: material
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 nav:
   - Home: index.md
-  - Docker Introdução: docker-introducao.md
-  - Docker Instalação: docker-instalacao.md
-  - Docker Imagens: docker-imagens.md
-  - Docker Containers: docker-containers.md
+  - Introdução: docker-introducao.md
+  - Instalação: docker-instalacao.md
+  - Imagens: docker-imagens.md
+  - Containers: docker-containers.md
   - Conclusão: conclusao.md
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
