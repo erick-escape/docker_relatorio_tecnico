@@ -1,12 +1,12 @@
-# **Instalação do Docker**
+# Instalação do Docker
 
 O Docker pode ser instalado em diferentes sistemas operacionais, sendo as principais plataformas suportadas o Linux e o Windows. A seguir, apresentamos um guia detalhado para instalação em cada uma dessas plataformas, além de uma alternativa para usuários de Windows que preferem um ambiente mais semelhante ao Linux.
 
-## **Instalação no Linux**
+## Instalação no Linux
 
 A instalação do Docker no Linux pode variar um pouco dependendo da distribuição que você está usando. Abaixo, fornecemos instruções para as distribuições mais comuns: Ubuntu, Debian e CentOS.
 
-### **Ubuntu**
+### Ubuntu
 
 1.  **Atualize o sistema:**
 
@@ -54,9 +54,9 @@ A instalação do Docker no Linux pode variar um pouco dependendo da distribuiç
 
 Saia e entre novamente na sessão para aplicar as mudanças.
 
-## **Instalação no Windows**
+## Instalação no Windows
 
-### **Docker Desktop**
+### Docker Desktop
 
 A instalação do Docker no Windows é feita através do Docker Desktop, que é uma aplicação que fornece uma experiência de desenvolvimento Docker fácil de usar no Windows. Siga os passos abaixo para instalar o Docker Desktop:
 
@@ -67,7 +67,7 @@ A instalação do Docker no Windows é feita através do Docker Desktop, que é 
 3.  **Verifique a instalação:**
     1.  Abra o Windows PowerShell e execute: `docker --version`, isso deve retornar a versão do Docker instalada.
 
-### **WSL 2**
+### WSL 2
 
 O WSL 2 (Windows Subsystem for Linux 2) permite que você execute uma distribuição Linux nativamente no Windows 10 e 11, oferecendo uma maneira de usar Docker em um ambiente Linux diretamente no Windows.
 
@@ -82,6 +82,6 @@ O WSL 2 (Windows Subsystem for Linux 2) permite que você execute uma distribui�
 5.  **Integrar com o Docker Desktop (Opcional):**
     1.  Docker Desktop pode ser integrado ao WSL 2 para fornecer uma experiência híbrida, onde o Docker Desktop gerencia os containers através do WSL 2. Nas configurações do Docker Desktop, ative a integração com o WSL 2. Isso permite que você execute comandos Docker tanto no Windows quanto no Linux.
 
-## **Conclusão**
+## Conclusão
 
 Após seguir as etapas de instalação correspondentes ao seu sistema operacional, você estará pronto para começar a trabalhar com Docker. Se você estiver no Windows e preferir um ambiente Linux, o WSL 2 é uma excelente alternativa, proporcionando a flexibilidade de usar comandos Linux com o Docker diretamente no seu sistema Windows.

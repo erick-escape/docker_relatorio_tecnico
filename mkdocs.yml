@@ -37,6 +37,7 @@ nav:
   - Instalação: docker-instalacao.md
   - Imagens: docker-imagens.md
   - Containers: docker-containers.md
+  - Docker Compose: docker-compose.md
   - Conclusão: conclusao.md
 markdown_extensions:
   - def_list
